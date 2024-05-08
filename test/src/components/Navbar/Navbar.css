@@ -1,0 +1,122 @@
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 65px;
+    border: 1px solid #EAEAEA;
+    margin-top: 20px;
+    margin-right: 20px;margin-left: 20px;
+    
+}
+.logo{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.btn-nav{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-right: 20px;
+    animation: slideIn 0.5s forwards;
+}
+.get-project{
+    background-color: #F4F4F4;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    /* padding: 26px,41px,26px; */
+    padding-top: 21px;
+    padding-right: 41px;
+    padding-left: 41px;
+    padding-bottom: 21px;
+    border: 1px solid #EAEAEA;
+    border-radius: 107px;
+}
+.on-board{
+    background-color: #1C1C1C;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    padding-top: 21px;
+    padding-right: 41px;
+    padding-left: 41px;
+    padding-bottom: 21px;
+    border: 1px solid #EAEAEA;
+    border-radius: 107px;
+}
+@media screen and (max-width:768px){
+    .get-project{
+        background-color: #F4F4F4;
+        font-weight: 400;
+        font-size: 14px;
+        color: black;
+        /* padding: 26px,41px,26px; */
+        padding-top: 14px;
+        padding-right: 21px;
+        padding-left: 21px;
+        padding-bottom: 14px;
+        border: 1px solid #EAEAEA;
+        border-radius: 107px;
+    }
+    .on-board{
+        background-color: #1C1C1C;
+        font-weight: 400;
+        font-size: 14px;
+        color: white;
+        padding-top: 14px;
+        padding-right: 21px;
+        padding-left: 21px;
+        padding-bottom: 14px;
+        border: 1px solid #EAEAEA;
+        border-radius: 107px;
+    }
+}
+
+.menu-btn{
+    display: none;
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+@media screen and (max-width: 590px) {
+    .btn-nav {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        padding-right: 30px;
+    }
+
+    .btn-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        padding: 25px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        border: 1px solid #EAEAEA;
+        position: absolute;
+        top: 150px;
+        left: 30%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .btn-nav{
+        left:20%;
+    }
+}

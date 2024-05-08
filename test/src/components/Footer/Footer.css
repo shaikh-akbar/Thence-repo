@@ -1,0 +1,36 @@
+
+.footer{
+    margin: 20px;
+    background-color:#F5F5F5;
+    border-radius: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-last-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+    padding-top: 10px;
+    gap: 20px;
+    
+}
+.footer-last-div p{
+    font-size: 18px;
+    font-family: Manrope;
+    font-weight: 400;
+    color: #1C1C1C;
+    text-decoration: underline;
+}
+.footer-first{
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.footer-first p{
+    font-size: 18px;
+    font-family: Manrope;
+    font-weight: 500;
+    color: #1C1C1C;
+}

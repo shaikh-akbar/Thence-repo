@@ -1,0 +1,117 @@
+.slideshow-container {
+    flex: 0 0 30%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .carousel-container {
+    margin-top: 30px; 
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    padding-top: 70px;
+    background-image: url('../../assets/bg-transparent.jpg');
+    background-size: cover; 
+    background-position: center; 
+    
+  }
+  
+  /* Styles for the slides */
+  .mySlides {
+    display: none;
+    transition: opacity 0.5s ease;
+  }
+  
+  .fade {
+    animation: fade 0.5s;
+    opacity: 0;
+  }
+  
+  @keyframes fade {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+  }
+  
+  /* Styles for the navigation dots */
+  .dot-container {
+    display: flex;
+    justify-content: flex-start;
+    align-self: start;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dot.active {
+    background-color: #717171;
+  }
+  
+  /* Styles for the Explore Now button */
+  .explore {
+    margin-top: 90px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Manrope;
+    
+    padding: 31px 40px 31px 40px;
+    background-color: #1C1C1C;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .forward{
+    width: 20px;
+    height: 19px;
+    color: #FFFFFF;
+  }
+  .explore:hover {
+    background-color: #45a049;
+  }
+
+ 
+  
+  
+  
+  .fade.active {
+    display: block;
+    opacity: 1;
+  }
+  
+  .dot-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dot.active {
+    background-color: #45a049;
+  }
+  .slide-title{
+    font-weight: 600;
+    font-family: Manrope;
+    font-size: 40px;
+    color: #1C1C1C;
+    line-height: 48px;
+  }

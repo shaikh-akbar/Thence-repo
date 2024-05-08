@@ -1,0 +1,120 @@
+
+.question-main-div{
+    background-color: #E8EEE7;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first{
+  padding-top: 30px;
+    padding-bottom: 30px;
+    flex-direction: column;
+}
+.first h6{
+    padding-left: 70px;
+padding-top: 20px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    color: #9E9D9D;
+}
+.first h2{
+    padding-left: 70px;
+
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 66px;
+    font-family: Manrope;
+    letter-spacing: -1%;
+    padding-bottom: 36px;
+
+    color: #1C1C1C;
+}
+.accordion-item {
+     margin-right: 50px;
+    width: 600px;
+    outline: none;
+    border: none;
+  }
+  
+  .accordion-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #E8EEE7;
+  }
+  
+  
+  .accordion-item{
+    border-bottom: 1px solid #D7D7D7;
+    transition: all 1s ease-in-out;
+
+  }
+  .accordion-content {
+    padding: 10px;
+    background-color: #E8EEE7;
+    font-size: 15px;
+    font-weight: 400;
+    color: #617275;
+    
+  }
+  .accordion-title span{
+   font-weight: 600;
+  }
+  
+  .accordion-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Manrope;
+  }
+  .second{
+    margin-top: -110px;
+  }
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .accordion-title {
+      padding: 8px;
+    }
+    
+    .accordion-content {
+      padding: 8px;
+    }
+  }
+  @media screen and (max-width:1205px) {
+    .question-main-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .union-img{
+        display: none;
+    }
+    .second{
+        margin-top: 30px;
+    }
+    .first{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+  }
+  @media screen and (max-width:729px) {
+    .accordion-item{
+        width: 100%;
+    }
+    .first h2{
+        font-size: 26px;
+        padding-left: 0px;
+    }
+    .first h6{
+        font-size: 26px;
+        padding-left: 0px;
+    }
+  }

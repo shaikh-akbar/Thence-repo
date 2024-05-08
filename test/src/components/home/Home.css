@@ -1,0 +1,271 @@
+
+
+.home {
+    
+    height: 100%;
+    margin-top: 20px;
+  }
+  
+.home-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  .h3-title{
+    color: green;
+  }
+  .home-img{
+    max-width: 519px;
+    max-height: 613px;
+    border-radius: 50px;
+    padding-bottom: 20px;
+  }
+  .main-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+.middle-card h2{
+    font-family: switzer;
+    font-weight: 500;
+    font-size: 64px;
+    margin-top: -30px;
+}
+.middle-card p{
+    font-family: Manrope;
+    opacity: 0.7;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: -20px;
+    line-height: 23px;
+    color: #828282;
+}
+.content-para{
+    padding-top: 20px;
+    padding-bottom: 22px;
+    padding-left: 20px;
+}
+.bottom-card h2{
+    font-weight: 700;
+    font-family: Manrope;
+    font-size: 24px;
+    margin-top: 30px;
+}
+.employment{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.bottom-card p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #828282;
+    margin-top: -10px;
+}
+.sparkle-img{
+    margin-top: -40px;
+    margin-left: -20px;
+}
+.main-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.main-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 90px; 
+    padding-bottom: 122px;
+  }
+.middle-card {
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    left: -120px;
+    top: 20%;
+    width: 267px;
+    height: 239px;
+    border-radius: 27px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.middle-card:hover {
+  transform: scale(1.05);
+}
+.bottom-card{
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    left: -15%;
+    top: 75%;
+    width: 245px;
+    height: 88px;
+    border-radius: 27px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   border-radius: 
+   111px;
+}
+.bottom-right-card{
+    position: absolute;
+    padding: 20px;
+    border-radius: 10px;
+    right: -18%;
+    top: 67%;
+    width: 267px;
+    height: 239px;
+    border-radius: 27px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 27px;
+    background-color: #002E18;
+    cursor: pointer;
+}
+@keyframes cardHover {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+.bottom-right-card:hover {
+  animation: cardHover 0.5s ease;
+}
+.employment-1{
+    margin-top: 20px;
+}
+.employment-1 h2{
+    font-weight: 500;
+    font-size: 43px;
+    font-family: switzer;
+    color: white;
+}
+.employment-1 h2 span{
+    font-weight: 500;
+    font-size: 22px;
+    font-family: switzer;
+    color: #A6A3A0;
+}
+.employment-1 p{
+    color: #CCCCCC;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.home-img {
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (max-width:1305px) {
+    .main-card{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:1205px) {
+   .main-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+   }
+   .explore-div{
+    padding-top: 50px;
+   }
+}
+@media screen and (max-width:760px) {
+  .middle-card{
+    left: -13%;
+  }
+  .bottom-right-card{
+    right: -10%;
+  }
+}
+
+@media screen and (max-width:820px) {
+    .middle-card, .bottom-right-card h2{
+        font-size: 17px;
+        padding-top: 20px;
+    }
+    .middle-card .sparkle-img{
+        width: 40px;
+        padding-top: 10px;
+    }
+    .middle-card, .bottom-right-card p{
+        font-size: 16px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .middle-card{
+      width: 200px;
+      height: 220px;
+    }
+    .bottom-right-card{
+        width: 200px;
+      height: 190px;
+      right: -16%;
+    }
+    .employment h2{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .employment p{
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+
+  @media screen and (max-width:449px) {
+    .h3-title{
+        color: green;
+        font-size: 17px;
+      }
+      .h2-title{
+        color: black;
+        font-weight: 600;
+        font-size: 20px;
+       
+      }
+      .registration{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 10px;
+      }
+  }
+ 
+  
+  @media screen and (max-width:695px) {
+    .middle-card{
+        left: -50px;
+    }
+    .bottom-right-card{
+        right: -40px;
+    }
+  }
+  @media screen and (max-width:620px) {
+    
+    .bottom-right-card{
+        right: -10px;
+    }
+  }
