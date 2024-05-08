@@ -22,12 +22,12 @@ function Home() {
         <div className="main-parent">
           <div className="main-card">
             <div className="middle-card">
-              <img src={sparkle} alt='not found' className='sparkle-img' />
+              <img src={sparkle} alt='not found' className='sparkle-img' loading='lazy'/>
               <h2>40%</h2>
               <p>Achieved Reduction in <br />project execution time<br />by optimizing team <br />availability</p>
             </div>
             <div className="bottom-card">
-              <img src={Vector1} alt='not found' />
+              <img src={Vector1} alt='not found' loading='lazy'/>
               <div className="employment">
                 <h2>10 Days</h2>
                 <p>Staff Deployment</p>
@@ -39,7 +39,7 @@ function Home() {
                 <p>Reduce Client Expenses<br />By Saving On Hiring And <br />Employee cost.</p>
               </div>
             </div>
-            <img src={homeimg} alt='not found' className='home-img' />
+            <img src={homeimg} alt='not found' className='home-img' loading='lazy'/>
           </div>
 
           {/* Carousel container */}

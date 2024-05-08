@@ -29,7 +29,7 @@ function Success() {
             </div>
             <div className="form-success">
                 <div className="success">
-                    <img src={successlogo} alt='not found' />
+                    <img src={successlogo} alt='not found' loading='lazy'/>
                     <h6>Success Submitted</h6>
                     <h2>Congratulations</h2>
                     <p>Your Request has Been Submitted Successfully to us. we<br /> will validate Your Information And Reach Out To Your <br /> Shortly With Updates</p>
