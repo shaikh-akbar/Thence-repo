@@ -16,7 +16,7 @@ function Success() {
        
         if (countdown === 0) {
             clearInterval(timer);
-            navigate('/');
+            navigate('/home');
         }
 
         return () => clearInterval(timer);
